@@ -17,6 +17,14 @@ function Home() {
 }
 
 {/* write an <About> component here */}
+function About() {
+  return (
+    <div id="about">
+      <h1>About</h1>
+      <p>This is a start in developing websites or applications using React.</p>
+    </div>
+  );
+}
 
 
 function App() {
@@ -24,7 +32,9 @@ function App() {
     <div>
       <NavBar />
       {/* add the <Home> component here */}
+      <Home />
       {/* add your <About> component here */}
+      <About />
     </div>
   );
 }
